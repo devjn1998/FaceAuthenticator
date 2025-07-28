@@ -99,4 +99,3 @@ Este projeto está configurado para deploy na plataforma [Render](https://render
 - **`build.sh`**: Instala as dependências de sistema (`cmake`, etc.) antes de instalar os pacotes Python, prevenindo erros de build.
 
 ---
-*Este projeto foi desenvolvido com o auxílio da IA Gemini.*
