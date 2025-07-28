@@ -1,0 +1,7 @@
+ultralytics
+opencv-python
+numpy
+face-recognition
+Flask
+Flask-Cors
+gunicorn

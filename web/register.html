@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Rosto</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="single-view">
+    <div class="container">
+        <h1>Registrar Novo Rosto</h1>
+        <div class="card single-card">
+            <div class="camera-container">
+                <video id="video-register" autoplay playsinline></video>
+                <canvas id="canvas-register"></canvas>
+                <canvas id="overlay-register"></canvas>
+            </div>
+            <input type="text" id="name" placeholder="Digite seu nome">
+            <button id="register-button" disabled>Registrar</button>
+            <p id="register-message" class="message">Centralize seu rosto na moldura</p>
+            <a href="/" class="back-link">Voltar para o Início</a>
+        </div>
+    </div>
+    <script src="/static/common.js"></script>
+    <script src="/static/register.js"></script>
+</body>
+
+</html>

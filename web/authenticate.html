@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticar Rosto</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="single-view">
+    <div class="container">
+        <h1>Autenticar</h1>
+        <div class="card single-card">
+            <div class="camera-container">
+                <video id="video-auth" autoplay playsinline></video>
+                <canvas id="canvas-auth"></canvas>
+                <canvas id="overlay-auth"></canvas>
+            </div>
+            <button id="auth-button">Autenticar</button>
+            <p id="auth-message" class="message">Posicione seu rosto e clique em autenticar</p>
+            <a href="/" class="back-link">Voltar para o Início</a>
+        </div>
+    </div>
+    <script src="/static/common.js"></script>
+    <script src="/static/authenticate.js"></script>
+</body>
+
+</html>
